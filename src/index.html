@@ -4,11 +4,15 @@
     <meta charset="UTF-8" >
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width,
+        user-scalable=no,
+        initial-scale=1.0,
+        maximum-scale=1.0,
+        minimum-scale=1.0"
     >
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
-    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
@@ -50,14 +54,16 @@
             id="age"
             min="1"
             max="100"
-            value="12" >
+            value="12"
+          >
         </div>
         <div class="form-field">
           <label for="birth-date">Full date of birth:</label>
           <input
             type="date"
             name="birth-date"
-            id="birth-date" >
+            id="birth-date"
+          >
         </div>
         <div class="form-field">
           <label for="accept">I accept the term of the agreement</label>
@@ -65,7 +71,8 @@
             type="checkbox"
             name="accept"
             id="accept"
-            required>
+            required
+          >
         </div>
       </fieldset>
       <fieldset class="fieldset">
@@ -87,7 +94,8 @@
             name="password"
             id="password"
             minlength="8"
-            maxlength="16" >
+            maxlength="16"
+          >
         </div>
       </fieldset>
       <fieldset class="fieldset">
@@ -99,14 +107,16 @@
               type="radio"
               name="love-cats"
               id="love-cats"
-              value="Yes" >
+              value="Yes"
+            >
             Yes
           </label>
           <label>
             <input
               type="radio"
               name="love-cats"
-              value="No" >
+              value="No"
+            >
             No
           </label>
         </div>
@@ -116,7 +126,8 @@
           <input
             type="color"
             name="color"
-            id="color" >
+            id="color"
+          >
         </div>
         <div class="form-field">
           <label for="time-to-bed">What time do you go to bed?</label>
@@ -124,7 +135,8 @@
             type="time"
             name="time-to-bed"
             id="time-to-bed"
-            step="2">
+            step="2"
+          >
         </div>
         <div class="form-field">
           <label for="cars-brand">What are your favorite brand of cars?</label>
@@ -140,20 +152,25 @@
             type="range"
             name="work-rate"
             id="work-rate"
-            value="0" >
+            value="0"
+          >
         </div>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
         <div class="form-field">
           <label for="comments">Comments</label>
-          <textarea name="comments" id="comments" >
-          </textarea>>
+          <textarea name="comments" id="comments">
+          </textarea>
         </div>
         <div class="form-field">
           <label for="recommend">Would you recommend us?</label>
           <select name="recommend" required>
-            <option value="null" disabled selected>Choose</option>
+            <option
+              value="null"
+              disabled
+              selected
+            >Choose</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
